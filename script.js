@@ -1,7 +1,7 @@
 const algoliaPlacesApiAppId = 'plU4N8HG6QWK';
 const algoliaPlacesApiKey = '1131438afb49f60a48ed468c5af189b8';
-const mapboxApiToken = 'pk.eyJ1Ijoia3Jva3JvYiIsImEiOiJja2YzcmcyNDkwNXVpMnRtZGwxb2MzNWtvIn0.69leM_6Roh26Ju7Lqb2pwQ';
-const taxiFareApiUrl = 'http://localhost:8000/predict_fare/';
+const mapboxApiToken = 'pk.eyJ1IjoiYTExcyIsImEiOiJja2xtYmpudWgwN2dvMm5teHd6cjUwNHZtIn0.qfP_WeXq5Lvt7MoO5MyMkg';
+const taxiFareApiUrl = 'https://taxiapi-wwtok2s7yq-ew.a.run.app';
 
 const displayMap = (start, stop) => {
   mapboxgl.accessToken = mapboxApiToken;
